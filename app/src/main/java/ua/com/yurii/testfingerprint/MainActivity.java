@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.tv);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (!fingerprintManager.isHardwareDetected()) {
-                /**
-                             * An error message will be displayed if the device does not contain the fingerprint hardware.
+                /*
+                            * An error message will be displayed if the device does not contain the fingerprint hardware.
                              * However if you plan to implement a default authentication method,
                              * you can redirect the user to a default authentication activity from here.
                              * Example:
