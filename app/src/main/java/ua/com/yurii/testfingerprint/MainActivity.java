@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             if (!fingerprintManager.isHardwareDetected()) {
                 /*
                             * An error message will be displayed if the device does not contain the fingerprint hardware.
-                             * However if you plan to implement a default authentication method,
+                            * However if you plan to implement a default authentication method,
                              * you can redirect the user to a default authentication activity from here.
                              * Example:
                              * Intent intent = new Intent(this, DefaultAuthenticationActivity.class);
